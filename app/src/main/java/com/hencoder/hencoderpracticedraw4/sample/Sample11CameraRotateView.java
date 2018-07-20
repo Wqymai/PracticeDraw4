@@ -40,20 +40,20 @@ public class Sample11CameraRotateView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        canvas.save();
-        camera.save();
-        camera.rotateX(30);
-        camera.applyToCanvas(canvas);
-        camera.restore();
-        canvas.drawBitmap(bitmap, point1.x, point1.y, paint);
-        canvas.restore();
+//        canvas.save();
+//        camera.save();
+//        camera.rotateX(30);
+//        camera.applyToCanvas(canvas);
+//        camera.restore();
+//        canvas.drawBitmap(bitmap, point1.x, point1.y, paint);
+//        canvas.restore();
 
         canvas.save();
         camera.save();
-        camera.rotateY(30);
+        camera.rotateY(135);
         camera.applyToCanvas(canvas);
         camera.restore();
-        canvas.drawBitmap(bitmap, point2.x, point2.y, paint);
+        canvas.drawBitmap(bitmap, point1.x, point1.y, paint);
         canvas.restore();
     }
 }

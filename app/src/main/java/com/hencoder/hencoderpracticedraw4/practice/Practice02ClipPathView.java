@@ -17,7 +17,7 @@ public class Practice02ClipPathView extends View {
     Paint paint = new Paint();
     Bitmap bitmap;
     Point point1 = new Point(200, 200);
-    Point point2 = new Point(600, 200);
+    Point point2 = new Point(500, 200);
 
     public Practice02ClipPathView(Context context) {
         super(context);
